@@ -1,20 +1,70 @@
-.body-container div {
+body {
+    background-color: black;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+    padding: 6px 30px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+nav ul li:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.title {
+    font-weight: bold;
+    display: inline;
+    margin: 0px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.page-body article {
     background-color: grey;
     padding: 60px 100px;
 }
 
-.body-container div:nth-child(odd) {
+.page-body article:nth-child(odd) {
     background-color: lightgray;
 }
 
 #inicio {
+    background-color: black;
+}
+
+#inicio div {
     padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: black;
 }
 
 #inicio img {
