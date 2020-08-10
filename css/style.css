@@ -1,24 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, strong {
+    font-family: 'Inconsolata', monospace;
+}
+
 body {
     background-color: black;
     margin: 0;
     box-sizing: border-box;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #16141F;
+}
+
 nav {
     display: flex;
-    align-items: center;
+    justify-content: center;
+}
+
+nav p {
+    margin: auto;
+    display: flex;
 }
 
 nav ul {
-    flex: 1;
+    width: 80%;
+    display: inline-block;
     padding: 20px;
-    display: flex;
     list-style: none;
-    align-items: center;
-    justify-content: flex-end;
 }
 
 nav ul li {
+    float: right;
     margin-right: 30px;
     font-size: 20px;
     color: white;
@@ -28,13 +49,13 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: lightblue;
-    color: black;
+    background-color: #3498DB;
 }
 
 .title {
     font-weight: bold;
-    display: inline;
+    display: flex;
+    align-items: center;
     margin: 0px;
     font-size: 30px;
     color: #fff;
@@ -55,7 +76,9 @@ nav ul li:hover {
 }
 
 #inicio {
-    background-color: black;
+    background-image: url("../img/bkg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #inicio div {
