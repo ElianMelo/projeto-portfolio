@@ -67,6 +67,11 @@ nav ul li:hover {
     height: 250px;
 }
 
+.box h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 .title {
     font-weight: bold;
     display: flex;
@@ -82,18 +87,17 @@ nav ul li:hover {
 }
 
 .page-body article {
+    padding: 60px 100px;
+}
+
+.page-body article:nth-child(even) {
     background-color: white;
     padding: 60px 100px;
 }
 
-.page-body article:nth-child(odd) {
-    background-color: lightgray;
-}
-
-#inicio {
-    background-image: url("../img/bkg.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 
 #inicio div {
