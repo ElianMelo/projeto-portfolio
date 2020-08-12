@@ -52,6 +52,21 @@ nav ul li:hover {
     background-color: #3498DB;
 }
 
+.box-group {
+    display: flex;
+}
+
+.box {
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 11px;
+    box-shadow: 0 2.5px #0000001c;
+    height: 250px;
+}
+
 .title {
     font-weight: bold;
     display: flex;
@@ -67,7 +82,7 @@ nav ul li:hover {
 }
 
 .page-body article {
-    background-color: grey;
+    background-color: white;
     padding: 60px 100px;
 }
 
