@@ -6,7 +6,16 @@
 }
 
 h1, h2, h3, strong {
+    text-align: center;
     font-family: 'Inconsolata', monospace;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    text-align: left;
 }
 
 body {
@@ -96,6 +105,8 @@ nav ul li:hover {
 }
 
 .parallax-window {
+    color: white;
+    text-align: center;
     min-height: 400px;
     background: transparent;
 }
